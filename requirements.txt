@@ -1,0 +1,10 @@
+
+-> Centralize html view and add a generic way to add the same to web project. (similar to what maven does for jar files)
+-> Also provide an eclipse plugin to use the same.
+
+
+ 1) Provide a central repository in internet that stores all view files in a file system format. (with proper traversal folder structure)
+ 2) Create a command line utility that downloads files from internet.
+ 3) When view templates are downloaded to local file system, create a local central repository to keep all view files.
+ 4) Also, download the view file template to current project location for making it available to the local web project.
+ 5) Need to decide how to include the login template to the project view. (Though some angular directive and jsp tag).
